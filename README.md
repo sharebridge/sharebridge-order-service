@@ -4,7 +4,20 @@
 
 ## Overview
 
-This repository is part of the ShareBridge project - a platform for dignified charitable giving.
+This repository contains the **Order Management Service** - the core business logic for creating, tracking, and fulfilling charitable food orders.
+
+**Key Responsibilities:**
+- 📦 Order creation and validation
+- 🔄 Order state management (pending, confirmed, in-progress, delivered, cancelled)
+- 🗺️ Location safety verification (integration with AI Safety Service)
+- 📸 Photo verification workflow
+- 🚚 Delivery tracking and status updates
+- 💰 Price calculation and vendor selection
+- ⏱️ Order timeout and retry logic
+- 📊 Order history and analytics
+- 🔁 Pledge pool and crowdfunding order coordination
+
+**Technology Stack:** Node.js with NestJS or Python with FastAPI
 
 For overall project context, see the [main ShareBridge repository](https://github.com/sharebridge/sharebridge).
 
